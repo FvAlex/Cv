@@ -34,6 +34,7 @@ main {
 }
 .main_left {
   margin-left: 5px;
+  font-size: 8000px;
 }
 .main_para {
   background-color: #363636;
@@ -213,9 +214,6 @@ main {
   }
   .article_box {
     height: 52px;
-  }
-  .main_left {
-    font-size: 20px;
   }
 }
 @media screen and (min-width: 400px) {

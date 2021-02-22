@@ -34,6 +34,7 @@ main {
 }
 .main_left {
   margin-left: 5px;
+  font
 }
 .main_para {
   background-color: #363636;
@@ -46,14 +47,14 @@ main {
 .main_para--modif {
   padding: 5px 5px 5px;
 }
-.main_list {
+.main_list{
   color: white;
   margin-left: 20px;
 }
-.main_list--modif {
+.main_list--modif{
   margin-top: 10px;
 }
-.logo {
+.logo{
   margin-left: 50px;
 }
 .html {
@@ -144,7 +145,7 @@ main {
   margin-left: 55px;
   position: absolute;
 }
-.php {
+.php{
   display: flex;
   flex-direction: row;
   margin-left: 15px;
@@ -177,7 +178,7 @@ main {
   text-align: center;
   color: white;
   padding-top: 5px;
-  padding-bottom: -20px;
+  padding-bottom: -20px; 
 }
 .article_box_base {
   background-color: #616161;
@@ -194,35 +195,33 @@ main {
 }
 .article_para {
   padding: 5px 5px;
+  
 }
 .article_hr {
   margin-top: 20px;
 }
-@media screen and (min-width: 370px) {
-  main {
+@media screen and (min-width: 370px){
+  main{
     height: 1600px;
   }
-  .main_list {
+  .main_list{
     margin-left: 10px;
   }
-  .logo {
+  .logo{
     margin-left: 5px;
   }
-  .article {
+  .article{
     height: 490px;
   }
-  .article_box {
+  .article_box{
     height: 52px;
   }
-  .main_left {
-    font-size: 20px;
-  }
 }
-@media screen and (min-width: 400px) {
-  .logo {
+@media screen and (min-width: 400px){
+  .logo{
     margin-left: 12px;
   }
-  main {
+  main{
     height: 1725px;
   }
 }
@@ -252,11 +251,11 @@ main {
     height: 62px;
     margin-left: 25px;
   }
-  .logo {
+  .logo{
     margin-left: 10px;
   }
 }
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1240px){
   .article {
     width: 700px;
   }
@@ -269,7 +268,7 @@ main {
   main {
     height: 1125px;
   }
-  .main_img {
+  .main_img{
     height: 150px;
     width: 200px;
   }
@@ -294,7 +293,7 @@ main {
   .article_box {
     margin-left: 40px;
   }
-  .logo {
+  .logo{
     margin-top: 40px;
   }
 }
